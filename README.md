@@ -24,13 +24,13 @@
 
 `Visual Studio` `Flutter` `Dart` `JSON files` `Postman`
 
-* So in order to get all cases of covid cases around the world, we have used available Postman API’s, and filtered it according to our needs for displaying in the home page.
+* #### So in order to get all cases of covid cases around the world, we have used available Postman API’s, and filtered it according to our needs for displaying in the home page.
 
 
-* Now for getting details about the Covid Vaccine, we have fetched the data from the Cowin government site, and have computed algorithms and logics to map the vaccine data with particular pin code the user is searching for.
+* #### Now for getting details about the Covid Vaccine, we have fetched the data from the Cowin government site, and have computed algorithms and logics to map the vaccine data with particular pin code the user is searching for.
 
 
-* For including the bottom navigation, we have used the curve navigation package available in the pub.dev site. Bottom navigation routes us to 3 tab bars, 1st one being Home dashboard, 2nd being Country details, and the 3rd one being contact info.
+* #### For including the bottom navigation, we have used the curve navigation package available in the pub.dev site. Bottom navigation routes us to 3 tab bars, 1st one being Home dashboard, 2nd being Country details, and the 3rd one being contact info.
 
 # Team members (Bennett University, B.Tech Computer Science 3rd Year) 
 
