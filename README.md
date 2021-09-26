@@ -47,6 +47,7 @@
 
 ![Iamge](https://github.com/rudransh2000/CovidAssistant/blob/main/Snapshots/2.png)
 
+
 ![Image](https://github.com/rudransh2000/CovidAssistant/blob/main/Snapshots/1.png)
 
 
