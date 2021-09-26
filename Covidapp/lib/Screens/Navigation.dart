@@ -1,7 +1,5 @@
+import 'package:covid_infos/Screens/Basic_infos_about_Covid/General/Contacts.dart';
 import 'package:covid_infos/Screens/Basic_infos_about_Covid/General/Vaccine.dart';
-import 'package:covid_infos/Screens/Basic_infos_about_Covid/General/basicinfo.dart';
-import 'package:covid_infos/Screens/Basic_infos_about_Covid/General/govtinfo.dart';
-import 'package:covid_infos/Screens/Contribution/contributionbody.dart';
 import 'package:covid_infos/Screens/Covidcases/CountryWise.dart';
 import 'package:covid_infos/Screens/Dashboard/Homepage.dart';
 import 'package:flutter/material.dart';
@@ -25,8 +23,7 @@ class _NavigationState extends State<Navigation> {
     List<Widget> tabs = [
       homepage(prefsnewtrial: prefsnewtrial),
       country(prefsnewtrial: prefsnewtrial),
-      /*contributionbody(),*/
-      infos(),
+      contacts(prefsnewtrial: widget.prefsnewtrial),
     ];
     return Scaffold(
         body: tabs[page],
@@ -37,7 +34,6 @@ class _NavigationState extends State<Navigation> {
               title: "Home",
             ),
             TabData(iconData: Icons.flag, title: "Countries"),
-            /*TabData(iconData: Icons.share, title: "Contribution"),*/
             TabData(iconData: Icons.info, title: "Info"),
           ],
           onTabChangedListener: (position) {

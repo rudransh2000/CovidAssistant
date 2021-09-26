@@ -39,7 +39,6 @@ class _OnboardingPageState extends State<OnboardingPage> {
   void initState() {
     super.initState();
     initialise();
-    /*getdata();*/
     FirebaseMessaging.onMessage.listen((RemoteMessage message) {
       RemoteNotification notification = message.notification;
       AndroidNotification android = message.notification?.android;
