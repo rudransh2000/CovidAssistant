@@ -37,7 +37,7 @@ class _NavigationState extends State<Navigation> {
             TabData(iconData: Icons.phone, title: "Contacts"),
           ],
           onTabChangedListener: (position) {
-            setState(() {
+            setState(() {s
               page = position;
             });
           },
