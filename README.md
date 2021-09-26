@@ -42,3 +42,11 @@
 #### 1. Sai Suvam Patnaik 
 #### 2. Rudransh Kush
 #### 3. Shubham Gautam
+
+# Snapshots
+
+![Iamge](https://github.com/rudransh2000/CovidAssistant/blob/main/Snapshots/2.png)
+
+![Image](https://github.com/rudransh2000/CovidAssistant/blob/main/Snapshots/1.png)
+
+
