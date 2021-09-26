@@ -34,7 +34,7 @@ class _NavigationState extends State<Navigation> {
               title: "Home",
             ),
             TabData(iconData: Icons.flag, title: "Countries"),
-            TabData(iconData: Icons.info, title: "Info"),
+            TabData(iconData: Icons.phone, title: "Contacts"),
           ],
           onTabChangedListener: (position) {
             setState(() {
